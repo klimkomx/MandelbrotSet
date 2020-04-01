@@ -1,7 +1,5 @@
 #include "mandelbrot.h"
 
-#include <QDebug>
-
 const double EPS = 1e-7;
 
 int pointCheck(complex<double>& point, const int MANDELBROT_ITERATIONS_COUNT) {
